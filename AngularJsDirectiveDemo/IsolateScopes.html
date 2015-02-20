@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>First AngularJS Directive</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body ng-controller="appCtrl as vm" class="container">
+
+    <h1>Greetings,</h1>
+    <div local-isolate-scope name="{{vm.user.firstName}}" city="{{vm.user.city}}"></div>
+
+    <h1>Favorite colors:</h1>
+    <div model-isolate-scope colors="vm.colors"></div>
+
+    <h1>Submit</h1>
+    <div func-isolate-scope submit="vm.clickMe()" data="vm.favoriteColor"></div>
+
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/appCtrl.js"></script>
+    <script src="scripts/app/isolateScope.js"></script>
+</body>
+</html>

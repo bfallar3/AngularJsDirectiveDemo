@@ -1,0 +1,6 @@
+E:\Users\Benjamin\Documents\GitHub\AngularJsDirectiveDemo\AngularJsDirectiveDemo\bin\AngularJsDirectiveDemo.dll.config
+E:\Users\Benjamin\Documents\GitHub\AngularJsDirectiveDemo\AngularJsDirectiveDemo\bin\AngularJsDirectiveDemo.dll
+E:\Users\Benjamin\Documents\GitHub\AngularJsDirectiveDemo\AngularJsDirectiveDemo\bin\AngularJsDirectiveDemo.pdb
+E:\Users\Benjamin\Documents\GitHub\AngularJsDirectiveDemo\AngularJsDirectiveDemo\obj\Debug\AngularJsDirectiveDemo.csprojResolveAssemblyReference.cache
+E:\Users\Benjamin\Documents\GitHub\AngularJsDirectiveDemo\AngularJsDirectiveDemo\obj\Debug\AngularJsDirectiveDemo.dll
+E:\Users\Benjamin\Documents\GitHub\AngularJsDirectiveDemo\AngularJsDirectiveDemo\obj\Debug\AngularJsDirectiveDemo.pdb

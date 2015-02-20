@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>AngularJS Directive - Transclude</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body ng-controller="appCtrl as vm">
+
+    <div class="container">
+        <h1>Office Tasks</h1>
+        <isolated-scope-transclude datasource="officeTasks">
+            <div ng-repeat="task in officeTasks">
+                <strong>{{task.title}}</strong>
+            </div>
+        </isolated-scope-transclude>
+        <p></p>
+        <h1>Personal Tasks</h1>
+        <isolated-scope-transclude datasource="homeTasks">
+            <div ng-repeat="task in homeTasks">
+                <strong>{{task.title}}</strong>
+            </div>
+        </isolated-scope-transclude>
+    </div>
+
+
+
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/appCtrl.js"></script>
+    <script src="scripts/app/transclude.js"></script>
+</body>
+</html>

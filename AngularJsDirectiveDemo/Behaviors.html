@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>AngularJS Directive - Behaviors</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body class="container" ng-controller="appCtrl as vm">
+
+    <div leave enter>PLEASE PLAY YOUR MOUSE IN THIS TEXT!</div>
+    <div leave="cyan" enter="black">THIS IS ANOTHER TEXT!</div>
+    <div ng-bind="vm.mousestate"></div>
+
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/appCtrl.js"></script>
+    <script src="scripts/app/behavior-directive.js"></script>
+</body>
+</html>

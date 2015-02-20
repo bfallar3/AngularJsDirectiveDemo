@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>First AngularJS Directive</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
+</head>
+<body ng-controller="appCtrl as vm">
+
+    <div superhero></div>
+    <another-directive name="{{vm.name}}"></another-directive>
+    <div another-directive name="Michelle"></div>
+
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/angular.min.js"></script>
+    <script src="scripts/app/app.js"></script>
+    <script src="scripts/app/appCtrl.js"></script>
+    <script src="scripts/app/first-directive.js"></script>
+</body>
+</html>
