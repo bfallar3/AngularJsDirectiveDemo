@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
     <Content Include="scripts\app\transclude.js" />
     <Content Include="templates\transclude.html" />
     <Content Include="transclude.html" />
